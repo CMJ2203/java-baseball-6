@@ -7,4 +7,5 @@ public class baseballmisson {
         int b = 1;
 
         System.out.print(a + b);
+    }
 }
