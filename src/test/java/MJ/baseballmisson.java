@@ -1,11 +1,17 @@
 package MJ;
 
+import java.util.Scanner;
+
 public class baseballmisson {
 
     public static void main(String[] args) {
-        int a = 0;
-        int b = 1;
+
+        Scanner in = new Scanner(System.in);
+        int a = in.nextInt();
+        int b = in.nextInt();
 
         System.out.print(a + b);
+
+        in.close();
     }
 }
